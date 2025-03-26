@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 50px;
+    color: brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
